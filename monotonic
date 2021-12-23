@@ -1,7 +1,0 @@
-def monotonic(nums):
-
-ghbdtn = all(nums[i] < nums[i+1] for i in range(len(nums)-1))
-if ghbdtn == False:
-ghbdtn = all(nums[i] > nums[i + 1] for i in range(len(nums) - 1))
-
-return print(ghbdtn)
